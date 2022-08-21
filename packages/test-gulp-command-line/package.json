@@ -1,0 +1,15 @@
+{
+  "name": "test-gulp-command-line",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "gulp-command rm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-command-line": "workspace:^1.0.0"
+  }
+}
