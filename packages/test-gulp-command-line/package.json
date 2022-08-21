@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "gulp-command rm"
+    "clean": "gulp-command clean test"
   },
   "keywords": [],
   "author": "",

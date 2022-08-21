@@ -1,7 +1,8 @@
 const rimraf = require("rimraf");
-function clean(cb) {
-  // body omitted
-  // cb();
-  console.log("rimraf", rimraf);
+const cwd = process.cwd();
+const path = require("path");
+function clean() {
+  rimraf.sync(path.join(cwd, "dist"));
+  console.log("rimraf");
 }
 module.exports = clean;
